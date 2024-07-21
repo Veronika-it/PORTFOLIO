@@ -1,0 +1,3132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>wallet (Jira)</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://nika1211.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [WFA-1]&nbsp;<a href="https://nika1211.atlassian.net/browse/WFA-1">Password field doesn&#39;t meet requirements </a>
+            <span class="subText">
+               Created: 14/Jun/24                   &nbsp;Updated: 14/Jun/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Open</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://nika1211.atlassian.net/secure/BrowseProject.jspa?id=10003">Wallet finance application</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_reporter_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10016-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://nika1211.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Screenshot 2024-06-09 103053.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request Type:</b></td>
+                <td id="customfield_10010-10016-value" class="value" bgcolor="#ffffff" width="80%">                    <span class="sd-request-type"><img aria-hidden="true" style="width:16px;height:16px;margin-right:8px;padding:0;vertical-align:middle" class="sd-recent-rt vp-rq-icon" src="https://nika1211.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10545"  >Report a bug</span>
+    
+
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request language:</b></td>
+                <td id="customfield_10041-10016-value" class="value" bgcolor="#ffffff" width="80%">      English
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request participants:</b></td>
+                <td id="customfield_10035-10016-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Organizations:</b></td>
+                <td id="customfield_10002-10016-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Preconditions:</b><br/>
+1. Page <a href="https://wallet-q-a.netlify.app/" class="external-link" rel="nofollow noreferrer">https://wallet-q-a.netlify.app/</a> is open</p>
+
+<p>2.Registration form is open<br/>
+3. Valid email address is entered to the email field<br/>
+<b>Steps to reproduce:</b><br/>
+1. Enter maximum allowed number of characters (16 ch</p>
+
+<p>aracters) in the password field<br/>
+<b>Actual result:</b><br/>
+An error message appeared under the password field: Password must not contain more than 12 characters</p>
+
+<p><b>Expected result:</b><br/>
+Password field accept 16 characters. Bottom line of Password field is highlighted in green.</p>
+
+
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10012" alt="Screenshot 2024-06-09 103053.png" width="33.33333333333333%" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [WFA-6]&nbsp;<a href="https://nika1211.atlassian.net/browse/WFA-6">Logout button doesn&#39;t works as requirement</a>
+            <span class="subText">
+               Created: 15/Jun/24                   &nbsp;Updated: 15/Jun/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Open</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://nika1211.atlassian.net/secure/BrowseProject.jspa?id=10003">Wallet finance application</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_reporter_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10021-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://nika1211.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    Recording 2024-06-15 212200.mp4 &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request Type:</b></td>
+                <td id="customfield_10010-10021-value" class="value" bgcolor="#ffffff" width="80%">                    <span class="sd-request-type"><img aria-hidden="true" style="width:16px;height:16px;margin-right:8px;padding:0;vertical-align:middle" class="sd-recent-rt vp-rq-icon" src="https://nika1211.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10545"  >Report a bug</span>
+    
+
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request language:</b></td>
+                <td id="customfield_10041-10021-value" class="value" bgcolor="#ffffff" width="80%">      English
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request participants:</b></td>
+                <td id="customfield_10035-10021-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Organizations:</b></td>
+                <td id="customfield_10002-10021-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Preconditions:</b><br/>
+1.Authorized user located on the home page<br/>
+<a href="https://wallet-q-a.netlify.app/home" title="smart-link" class="external-link" rel="nofollow noreferrer">https://wallet-q-a.netlify.app/home</a> <br/>
+2."Logout" button is clickable<br/>
+<b>Steps to reproduce:</b><br/>
+1. click the "Logout" button located in the right corner of header<br/>
+<b>Actual result:</b><br/>
+The user has been logged out. <br/>
+<b>Expected result:</b><br/>
+A modal window appeared with the question “Do you really want to log out” and “Yes”, “No” buttons</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10000"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_commented_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">15/Jun/24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10000"><td bgcolor="#ffffff">
+            <p><div class="embeddedObject"><object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="https://www.apple.com/qtactivex/qtplugin.cab" data="/rest/api/3/attachment/content/10013?stream=true" height="200" type="video/mp4" width="200" ><param name="data" value="/rest/api/3/attachment/content/10013?stream=true"/><param name="src" value="/rest/api/3/attachment/content/10013?stream=true"/><param name="type" value="video/mp4"/><embed height="200" pluginspage="https://www.apple.com/quicktime/download/" src="/rest/api/3/attachment/content/10013?stream=true" type="video/mp4" width="200" /></object></div></p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [WFA-7]&nbsp;<a href="https://nika1211.atlassian.net/browse/WFA-7">User can&#39;t add Income transaction without completing in the comment field</a>
+            <span class="subText">
+               Created: 15/Jun/24                   &nbsp;Updated: 20/Jul/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Open</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://nika1211.atlassian.net/secure/BrowseProject.jspa?id=10003">Wallet finance application</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_reporter_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10022-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://nika1211.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Screenshot 2024-06-15 224934.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request Type:</b></td>
+                <td id="customfield_10010-10022-value" class="value" bgcolor="#ffffff" width="80%">                    <span class="sd-request-type"><img aria-hidden="true" style="width:16px;height:16px;margin-right:8px;padding:0;vertical-align:middle" class="sd-recent-rt vp-rq-icon" src="https://nika1211.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10545"  >Report a bug</span>
+    
+
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request language:</b></td>
+                <td id="customfield_10041-10022-value" class="value" bgcolor="#ffffff" width="80%">      English
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request participants:</b></td>
+                <td id="customfield_10035-10022-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Organizations:</b></td>
+                <td id="customfield_10002-10022-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Precondition:</b><br/>
+1.Authorized user located on the home page <a href="https://wallet-q-a.netlify.app/home" class="external-link" rel="nofollow noreferrer">https://wallet-q-a.netlify.app/home</a><br/>
+2.Add Income transaction form is open<br/>
+3. Comment field is empty<br/>
+<b>Steps to reproduce:</b> <br/>
+1. Enter correct data in the amount field and click Add transaction button <br/>
+<b>Actual result:</b><br/>
+The user cannot add transactions. Add transaction button is not clickable, when the comment field is empty.<br/>
+<b>Expected result:</b><br/>
+After completing amount field Add transaction button become clickable even if comment field is empty. User can add transaction.</p>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10001"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_commented_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">15/Jun/24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10001"><td bgcolor="#ffffff">
+            <p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10014" height="200" width="200" style="border: 0px solid black" /></span></p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [WFA-8]&nbsp;<a href="https://nika1211.atlassian.net/browse/WFA-8">Date field doesn&#39;t display a current date as default</a>
+            <span class="subText">
+               Created: 16/Jun/24                   &nbsp;Updated: 16/Jun/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Open</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://nika1211.atlassian.net/secure/BrowseProject.jspa?id=10003">Wallet finance application</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_reporter_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10023-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://nika1211.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Screenshot 2024-06-16 124621.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request Type:</b></td>
+                <td id="customfield_10010-10023-value" class="value" bgcolor="#ffffff" width="80%">                    <span class="sd-request-type"><img aria-hidden="true" style="width:16px;height:16px;margin-right:8px;padding:0;vertical-align:middle" class="sd-recent-rt vp-rq-icon" src="https://nika1211.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10545"  >Report a bug</span>
+    
+
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request language:</b></td>
+                <td id="customfield_10041-10023-value" class="value" bgcolor="#ffffff" width="80%">      English
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request participants:</b></td>
+                <td id="customfield_10035-10023-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Organizations:</b></td>
+                <td id="customfield_10002-10023-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Precondition:</b><br/>
+1.Authorized user located at <a href="https://wallet-q-a.netlify.app/home" class="external-link" rel="nofollow noreferrer">https://wallet-q-a.netlify.app/home</a><br/>
+<b>Steps to reproduce:</b><br/>
+1. Click the “+” button to open add transaction form<br/>
+<b>Actual result:</b><br/>
+Add transaction form is open, but date field doesn’t display current date by default. date field displays 01.01.2023.<br/>
+<b>Expected result:</b><br/>
+Add transaction form is open. Date field display current date by default</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10002"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_commented_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">16/Jun/24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10002"><td bgcolor="#ffffff">
+            <p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10015" height="200" width="200" style="border: 0px solid black" /></span></p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [WFA-9]&nbsp;<a href="https://nika1211.atlassian.net/browse/WFA-9">The user can&#39;t cancel the add Income transaction by clicking on gray background</a>
+            <span class="subText">
+               Created: 16/Jun/24                   &nbsp;Updated: 20/Jul/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Open</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://nika1211.atlassian.net/secure/BrowseProject.jspa?id=10003">Wallet finance application</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_reporter_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10024-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://nika1211.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    Recording 2024-06-16 130419.mp4 &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request Type:</b></td>
+                <td id="customfield_10010-10024-value" class="value" bgcolor="#ffffff" width="80%">                    <span class="sd-request-type"><img aria-hidden="true" style="width:16px;height:16px;margin-right:8px;padding:0;vertical-align:middle" class="sd-recent-rt vp-rq-icon" src="https://nika1211.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10545"  >Report a bug</span>
+    
+
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request language:</b></td>
+                <td id="customfield_10041-10024-value" class="value" bgcolor="#ffffff" width="80%">      English
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request participants:</b></td>
+                <td id="customfield_10035-10024-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Organizations:</b></td>
+                <td id="customfield_10002-10024-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Preconditions:</b><br/>
+1.Authorized user located at <a href="https://wallet-q-a.netlify.app/home" title="smart-link" class="external-link" rel="nofollow noreferrer">https://wallet-q-a.netlify.app/home</a> <br/>
+2.Income transaction form is opened<br/>
+3.All fields are completed with correct data<br/>
+<b>Steps to reproduce:</b><br/>
+1. Click on gray background  <br/>
+<b>Actual result:</b><br/>
+Modal window with form for adding Income transactions still open<br/>
+<b>Expected result:</b><br/>
+Modal window closed and data not saved</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10003"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_commented_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">16/Jun/24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10003"><td bgcolor="#ffffff">
+            <p><div class="embeddedObject"><object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="https://www.apple.com/qtactivex/qtplugin.cab" data="/rest/api/3/attachment/content/10016?stream=true" height="200" type="video/mp4" width="200" ><param name="data" value="/rest/api/3/attachment/content/10016?stream=true"/><param name="src" value="/rest/api/3/attachment/content/10016?stream=true"/><param name="type" value="video/mp4"/><embed height="200" pluginspage="https://www.apple.com/quicktime/download/" src="/rest/api/3/attachment/content/10016?stream=true" type="video/mp4" width="200" /></object></div></p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [WFA-10]&nbsp;<a href="https://nika1211.atlassian.net/browse/WFA-10">Error message does not appear when trying to edit an expense transaction category</a>
+            <span class="subText">
+               Created: 16/Jun/24                   &nbsp;Updated: 16/Jun/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Open</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://nika1211.atlassian.net/secure/BrowseProject.jspa?id=10003">Wallet finance application</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_reporter_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10025-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://nika1211.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    Recording 2024-06-16 132643.mp4 &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request Type:</b></td>
+                <td id="customfield_10010-10025-value" class="value" bgcolor="#ffffff" width="80%">                    <span class="sd-request-type"><img aria-hidden="true" style="width:16px;height:16px;margin-right:8px;padding:0;vertical-align:middle" class="sd-recent-rt vp-rq-icon" src="https://nika1211.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10545"  >Report a bug</span>
+    
+
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request language:</b></td>
+                <td id="customfield_10041-10025-value" class="value" bgcolor="#ffffff" width="80%">      English
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request participants:</b></td>
+                <td id="customfield_10035-10025-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Organizations:</b></td>
+                <td id="customfield_10002-10025-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Preconditions:</b><br/>
+1.Authorized user located on the home page <a href="https://wallet-q-a.netlify.app/home" class="external-link" rel="nofollow noreferrer">https://wallet-q-a.netlify.app/home</a></p>
+
+<p>2.Transaction list displays edded transaction<br/>
+<b>Steps to reproduce:</b><br/>
+1. Click on the category field.<br/>
+2. Select another category than the current one from drop-down list<br/>
+3. "Change transaction" button<br/>
+<b>Actual result:</b><br/>
+The transaction category did not change, but an error message: “Category can't be edited” did not appear<br/>
+<b>Expected result:</b><br/>
+An error message: "Category can't be edited" appeared</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10004"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_commented_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">16/Jun/24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10004"><td bgcolor="#ffffff">
+            <p><div class="embeddedObject"><object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="https://www.apple.com/qtactivex/qtplugin.cab" data="/rest/api/3/attachment/content/10017?stream=true" height="200" type="video/mp4" width="200" ><param name="data" value="/rest/api/3/attachment/content/10017?stream=true"/><param name="src" value="/rest/api/3/attachment/content/10017?stream=true"/><param name="type" value="video/mp4"/><embed height="200" pluginspage="https://www.apple.com/quicktime/download/" src="/rest/api/3/attachment/content/10017?stream=true" type="video/mp4" width="200" /></object></div></p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [WFA-11]&nbsp;<a href="https://nika1211.atlassian.net/browse/WFA-11">The user can&#39;t delete a comment added to a transaction</a>
+            <span class="subText">
+               Created: 16/Jun/24                   &nbsp;Updated: 16/Jun/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Open</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://nika1211.atlassian.net/secure/BrowseProject.jspa?id=10003">Wallet finance application</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_reporter_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10026-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://nika1211.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    Recording 2024-06-16 134356.mp4 &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request Type:</b></td>
+                <td id="customfield_10010-10026-value" class="value" bgcolor="#ffffff" width="80%">                    <span class="sd-request-type"><img aria-hidden="true" style="width:16px;height:16px;margin-right:8px;padding:0;vertical-align:middle" class="sd-recent-rt vp-rq-icon" src="https://nika1211.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10545"  >Report a bug</span>
+    
+
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request language:</b></td>
+                <td id="customfield_10041-10026-value" class="value" bgcolor="#ffffff" width="80%">      English
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request participants:</b></td>
+                <td id="customfield_10035-10026-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Organizations:</b></td>
+                <td id="customfield_10002-10026-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Preconditions:</b><br/>
+1.Authorized user located on the home page <a href="https://wallet-q-a.netlify.app/home" title="smart-link" class="external-link" rel="nofollow noreferrer">https://wallet-q-a.netlify.app/home</a> <br/>
+2.Transaction list displays edded transaction<br/>
+<b>Steps to reproduce:</b><br/>
+1.Click the edit icon next to the selected transaction<br/>
+2. Delete a comment from the comment field<br/>
+3. Click “Change transaction” button<br/>
+<b>Actual result:</b><br/>
+”Change transaction” button is not clickable when comment field is empty. User can’t save changes<br/>
+<b>Expected result:</b><br/>
+Change transaction button is clickable, user saves changes. Transaction displays on the transaction list without comment</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10005"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_commented_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">16/Jun/24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10005"><td bgcolor="#ffffff">
+            <p><div class="embeddedObject"><object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="https://www.apple.com/qtactivex/qtplugin.cab" data="/rest/api/3/attachment/content/10018?stream=true" height="200" type="video/mp4" width="200" ><param name="data" value="/rest/api/3/attachment/content/10018?stream=true"/><param name="src" value="/rest/api/3/attachment/content/10018?stream=true"/><param name="type" value="video/mp4"/><embed height="200" pluginspage="https://www.apple.com/quicktime/download/" src="/rest/api/3/attachment/content/10018?stream=true" type="video/mp4" width="200" /></object></div></p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [WFA-12]&nbsp;<a href="https://nika1211.atlassian.net/browse/WFA-12">Error message does not appear when trying to edit amount of  transaction</a>
+            <span class="subText">
+               Created: 17/Jun/24                   &nbsp;Updated: 17/Jun/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Open</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://nika1211.atlassian.net/secure/BrowseProject.jspa?id=10003">Wallet finance application</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_reporter_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10027-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://nika1211.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    Recording 2024-06-17 194631.mp4 &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request Type:</b></td>
+                <td id="customfield_10010-10027-value" class="value" bgcolor="#ffffff" width="80%">                    <span class="sd-request-type"><img aria-hidden="true" style="width:16px;height:16px;margin-right:8px;padding:0;vertical-align:middle" class="sd-recent-rt vp-rq-icon" src="https://nika1211.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10545"  >Report a bug</span>
+    
+
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request language:</b></td>
+                <td id="customfield_10041-10027-value" class="value" bgcolor="#ffffff" width="80%">      English
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request participants:</b></td>
+                <td id="customfield_10035-10027-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Organizations:</b></td>
+                <td id="customfield_10002-10027-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Preconditions:</b><br/>
+1.Authorized user located on the home page <a href="https://wallet-q-a.netlify.app/home" title="smart-link" class="external-link" rel="nofollow noreferrer">https://wallet-q-a.netlify.app/home</a> <br/>
+2.Transaction list displays edded transaction<br/>
+<b>Steps to reproduce:</b><br/>
+1. Click the edit icon next to the selected transaction <br/>
+2.Change amount in the amount field<br/>
+3. Click “Change transaction” button<br/>
+<b>Actual result:</b><br/>
+The error message 'amount cannot be edited' does not appear, the user can click the 'Change transaction' button, but the transaction amount has not been changed.</p>
+
+<p><b>Expected result:</b><br/>
+The error message 'amount cannot be edited' appears. The user cannot save changes because the 'Change transaction' button is not clickable.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10006"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_commented_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">17/Jun/24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10006"><td bgcolor="#ffffff">
+            <p><div class="embeddedObject"><object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="https://www.apple.com/qtactivex/qtplugin.cab" data="/rest/api/3/attachment/content/10019?stream=true" height="200" type="video/mp4" width="200" ><param name="data" value="/rest/api/3/attachment/content/10019?stream=true"/><param name="src" value="/rest/api/3/attachment/content/10019?stream=true"/><param name="type" value="video/mp4"/><embed height="200" pluginspage="https://www.apple.com/quicktime/download/" src="/rest/api/3/attachment/content/10019?stream=true" type="video/mp4" width="200" /></object></div></p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [WFA-13]&nbsp;<a href="https://nika1211.atlassian.net/browse/WFA-13">User can change date of adding transaction</a>
+            <span class="subText">
+               Created: 17/Jun/24                   &nbsp;Updated: 17/Jun/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Open</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://nika1211.atlassian.net/secure/BrowseProject.jspa?id=10003">Wallet finance application</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_reporter_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10028-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://nika1211.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    Recording 2024-06-17 200236.mp4 &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request Type:</b></td>
+                <td id="customfield_10010-10028-value" class="value" bgcolor="#ffffff" width="80%">                    <span class="sd-request-type"><img aria-hidden="true" style="width:16px;height:16px;margin-right:8px;padding:0;vertical-align:middle" class="sd-recent-rt vp-rq-icon" src="https://nika1211.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10545"  >Report a bug</span>
+    
+
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request language:</b></td>
+                <td id="customfield_10041-10028-value" class="value" bgcolor="#ffffff" width="80%">      English
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request participants:</b></td>
+                <td id="customfield_10035-10028-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Organizations:</b></td>
+                <td id="customfield_10002-10028-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Precondition:</b><br/>
+1.Authorized user located on the home page <a href="https://wallet-q-a.netlify.app/home" class="external-link" rel="nofollow noreferrer">https://wallet-q-a.netlify.app/home</a></p>
+
+<p>2.Transaction list displays edded transaction<br/>
+<b>Steps to reproduce:</b><br/>
+1. Click the edit icon next to the selected transaction<br/>
+2. Click in the date field<br/>
+3. Select another date than the current one from the calendar<br/>
+<b>Actual result:</b><br/>
+The user can select another date from calendar and save changes.  Changed date displayed on the transaction list.<br/>
+<b>Expected result:</b><br/>
+The user cannot change the date of the added transaction</p>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10007"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_commented_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">17/Jun/24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10007"><td bgcolor="#ffffff">
+            <p><div class="embeddedObject"><object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="https://www.apple.com/qtactivex/qtplugin.cab" data="/rest/api/3/attachment/content/10020?stream=true" height="200" type="video/mp4" width="200" ><param name="data" value="/rest/api/3/attachment/content/10020?stream=true"/><param name="src" value="/rest/api/3/attachment/content/10020?stream=true"/><param name="type" value="video/mp4"/><embed height="200" pluginspage="https://www.apple.com/quicktime/download/" src="/rest/api/3/attachment/content/10020?stream=true" type="video/mp4" width="200" /></object></div></p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [WFA-14]&nbsp;<a href="https://nika1211.atlassian.net/browse/WFA-14">User can&#39;t add Expense transaction without completing in the comment field</a>
+            <span class="subText">
+               Created: 20/Jul/24                   &nbsp;Updated: 20/Jul/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Open</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://nika1211.atlassian.net/secure/BrowseProject.jspa?id=10003">Wallet finance application</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_reporter_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10029-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://nika1211.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    Screen Recording 2024-07-20 113128.mp4 &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request Type:</b></td>
+                <td id="customfield_10010-10029-value" class="value" bgcolor="#ffffff" width="80%">                    <span class="sd-request-type"><img aria-hidden="true" style="width:16px;height:16px;margin-right:8px;padding:0;vertical-align:middle" class="sd-recent-rt vp-rq-icon" src="https://nika1211.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10545"  >Report a bug</span>
+    
+
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request language:</b></td>
+                <td id="customfield_10041-10029-value" class="value" bgcolor="#ffffff" width="80%">      English
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request participants:</b></td>
+                <td id="customfield_10035-10029-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Organizations:</b></td>
+                <td id="customfield_10002-10029-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Precondition:</b><br/>
+1.Authorized user located on the home page <a href="https://wallet-q-a.netlify.app/home" title="smart-link" class="external-link" rel="nofollow noreferrer">https://wallet-q-a.netlify.app/home</a> <br/>
+2.Add Expense transaction form is open</p>
+
+<ol>
+	<li>Comment field is empty</li>
+</ol>
+
+
+
+<p><b>Steps to reproduce:</b> </p>
+
+<ol>
+	<li>Enter correct data in the amount field and click Add transaction button</li>
+</ol>
+
+
+
+<p><b>Actual result:</b><br/>
+The user cannot add transactions. Add transaction button is not clickable, when the comment field is empty.<br/>
+<b>Expected result:</b><br/>
+After completing amount field Add transaction button become clickable even if comment field is empty. User can add transaction.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [WFA-15]&nbsp;<a href="https://nika1211.atlassian.net/browse/WFA-15">The user can&#39;t cancel the add Expense transaction by clicking on gray background</a>
+            <span class="subText">
+               Created: 20/Jul/24                   &nbsp;Updated: 20/Jul/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Open</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://nika1211.atlassian.net/secure/BrowseProject.jspa?id=10003">Wallet finance application</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_reporter_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10030-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://nika1211.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    Recording 2024-07-20 114400.mp4 &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request Type:</b></td>
+                <td id="customfield_10010-10030-value" class="value" bgcolor="#ffffff" width="80%">                    <span class="sd-request-type"><img aria-hidden="true" style="width:16px;height:16px;margin-right:8px;padding:0;vertical-align:middle" class="sd-recent-rt vp-rq-icon" src="https://nika1211.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10545"  >Report a bug</span>
+    
+
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request language:</b></td>
+                <td id="customfield_10041-10030-value" class="value" bgcolor="#ffffff" width="80%">      English
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request participants:</b></td>
+                <td id="customfield_10035-10030-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Organizations:</b></td>
+                <td id="customfield_10002-10030-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Preconditions:</b><br/>
+1.Authorized user located at <a href="https://wallet-q-a.netlify.app/home" title="smart-link" class="external-link" rel="nofollow noreferrer">https://wallet-q-a.netlify.app/home</a> <br/>
+2.Expense transaction form is opened<br/>
+3.All fields are completed with correct data<br/>
+<b>Steps to reproduce:</b></p>
+
+<ol>
+	<li>Click on gray background</li>
+</ol>
+
+
+
+<p><b>Actual result:</b><br/>
+Modal window with form for adding Income transactions still open<br/>
+<b>Expected result:</b><br/>
+Modal window closed and data not saved</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [WFA-16]&nbsp;<a href="https://nika1211.atlassian.net/browse/WFA-16"> User can edit type of transaction from income to expense and vise versa</a>
+            <span class="subText">
+               Created: 20/Jul/24                   &nbsp;Updated: 20/Jul/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Open</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://nika1211.atlassian.net/secure/BrowseProject.jspa?id=10003">Wallet finance application</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_reporter_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10031-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://nika1211.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    Screen Recording 2024-07-20 123233.mp4 &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request Type:</b></td>
+                <td id="customfield_10010-10031-value" class="value" bgcolor="#ffffff" width="80%">                    <span class="sd-request-type"><img aria-hidden="true" style="width:16px;height:16px;margin-right:8px;padding:0;vertical-align:middle" class="sd-recent-rt vp-rq-icon" src="https://nika1211.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10545"  >Report a bug</span>
+    
+
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request language:</b></td>
+                <td id="customfield_10041-10031-value" class="value" bgcolor="#ffffff" width="80%">      English
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request participants:</b></td>
+                <td id="customfield_10035-10031-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Organizations:</b></td>
+                <td id="customfield_10002-10031-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Preconditions:</b><br/>
+Authorized user located on the home page <a href="https://wallet-q-a.netlify.app/home" title="smart-link" class="external-link" rel="nofollow noreferrer">https://wallet-q-a.netlify.app/home</a> <br/>
+Transaction list display added transactions<br/>
+<b>Steps to reproduce:</b><br/>
+1. The user clicks the edit icon next to the selected transaction (for example Income transaction)<br/>
+2. User changes type of transaction to expense on the editing transaction form<br/>
+3. User clicks "Change transaction"button<br/>
+<b>Actual result:</b><br/>
+User can change type of transactions.<br/>
+<b>Expected result:</b><br/>
+An error message appeared "Type of transaction can't be changed".</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10008"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_commented_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">20/Jul/24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10008"><td bgcolor="#ffffff">
+            <p><div class="embeddedObject"><object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="https://www.apple.com/qtactivex/qtplugin.cab" data="/rest/api/3/attachment/content/10023?stream=true" height="200" type="video/mp4" width="200" ><param name="data" value="/rest/api/3/attachment/content/10023?stream=true"/><param name="src" value="/rest/api/3/attachment/content/10023?stream=true"/><param name="type" value="video/mp4"/><embed height="200" pluginspage="https://www.apple.com/quicktime/download/" src="/rest/api/3/attachment/content/10023?stream=true" type="video/mp4" width="200" /></object></div></p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [WFA-17]&nbsp;<a href="https://nika1211.atlassian.net/browse/WFA-17">Incorrect type of button on the Add transaction form</a>
+            <span class="subText">
+               Created: 21/Jul/24                   &nbsp;Updated: 21/Jul/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Open</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://nika1211.atlassian.net/secure/BrowseProject.jspa?id=10003">Wallet finance application</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                id="word_reporter_712020:223daa3e-32ba-486d-9f7d-fc0182392aef"
+                href="https://nika1211.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A223daa3e-32ba-486d-9f7d-fc0182392aef">
+                    Veronika Kryvetska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10032-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://nika1211.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Screenshot 2024-07-21 103603.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request Type:</b></td>
+                <td id="customfield_10010-10032-value" class="value" bgcolor="#ffffff" width="80%">                    <span class="sd-request-type"><img aria-hidden="true" style="width:16px;height:16px;margin-right:8px;padding:0;vertical-align:middle" class="sd-recent-rt vp-rq-icon" src="https://nika1211.atlassian.net/rest/api/2/universal_avatar/view/type/SD_REQTYPE/avatar/10545"  >Report a bug</span>
+    
+
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request language:</b></td>
+                <td id="customfield_10041-10032-value" class="value" bgcolor="#ffffff" width="80%">      English
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request participants:</b></td>
+                <td id="customfield_10035-10032-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Organizations:</b></td>
+                <td id="customfield_10002-10032-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Preconditions:</b><br/>
+1.Authorized user located on the home page<br/>
+<a href="https://wallet-q-a.netlify.app/home" title="smart-link" class="external-link" rel="nofollow noreferrer">https://wallet-q-a.netlify.app/home</a><br/>
+<b>Steps to reproduce:</b><br/>
+1. Click “+“ button located on the Home page<br/>
+2. Observe the transaction type selection button<br/>
+<b>Actual result:</b><br/>
+The form uses a toggle button to select the transaction type.<br/>
+<b>Expected Result</b>: <br/>
+The form should use radio buttons to select the transaction type (Income or Expense) as per the design requirements.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Generated at Sun Jul 21 09:32:52 UTC 2024 by Veronika Kryvetska using Jira 1001.0.0-SNAPSHOT#100259-rev:48dd1e2d75e7eac65741e465279d2700f927137d.
+
+</body>
+</html>
